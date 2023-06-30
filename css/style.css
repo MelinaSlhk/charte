@@ -8,15 +8,29 @@
 }
 
 @media screen and (max-width: 480px){
-h1 {
+
+.button-github{
+    display: flex;
+    /* flex-direction: row;
+        float: right; */
+    /* position: relative; */
+    /* bottom: 135px; */
+    color: white;
+    background: #CE0033;
+    border-radius: 5px;
+    border:none;
+    margin-right: 25%;
+    /* margin-bottom: 2.5rem; */
+    margin-top: 40%;   
+}
+    h1 {
     font-size: 30px;
 }
 }
 
 
-
 body{
-    font-family: 'Roboto';
+    font-family: 'roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -30,19 +44,22 @@ h2{
 .button-github{
     display: flex;
     flex-direction: row;
-    float:right;
+    float: right;
     position: relative;
     bottom: 135px;
     color: white;
     background: #CE0033;
     border-radius: 5px;
     border:none;
+    /* margin-right: 25%;
+    margin-bottom: 2.5rem; */
 }
 
 a{
     color: white;
     text-decoration: none;
 }
+
 
 h3{
     font-size: 24px;
